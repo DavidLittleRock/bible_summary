@@ -65,7 +65,7 @@ def make_books():
     df_book = df_chapter.copy(deep=True).drop(columns=['chapter_text'])
     df_book = df_book.reset_index(drop=True)
 
- #   books = {}
+ #   books = {} remove
     return df_book
 
 def make_bible():
